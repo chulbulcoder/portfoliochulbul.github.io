@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+body{
+    background-color: rgb(50, 4, 79);
+}
+.navbar{
+    height: 60px;
+    background: black;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    
+    
+   a{
+    text-decoration: none;
+    color: aliceblue;
+   }
+    }
+    .border{
+        border: 2px solid transparent;
+    }
+    .border :hover{
+        border: 2px solid white;
+    }
+    
+    .logo{
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+         margin-left: 20px; 
+        align-items: center;
+        width: 60%;
+    }
+    
+    .content{
+        color: white;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+
+         }
+         li{
+            color: aliceblue;
+            display: inline-block;
+            text-decoration: none;
+            margin-left: 50px;
+            
+         }
+          .name{
+            margin-left: 80px;
+            margin-top: 10%;
+            font-weight: 900;
+            color: white;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif; 
+         }
+         .shiv{
+            color:white;
+            margin-left:80px ;
+            font-size: 50px;
+            font-weight: 1000;
+        
+         }
+         .faltu{
+            margin-left: 80px;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+         }
+         .para{
+            
+            width: 700px;
+            height: 160px;
+            margin-left: 80px;
+            color: white;
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: 400;
+            
+         }
+         .image{
+            background-color: pink;
+            height:400px ;
+            width: 400px;
+            float: right;
+            margin: 0px 100px 0px 0px;
+            border: 5px solid rgb(42, 135, 249);
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px rgb(42, 135, 249);
+            background-image: url(shiv1.jpg);
+            background-size: cover;
+         }
+         .social{
+            
+            margin-left: 80px;
+            margin-top: 50px;
+            height: 50px;
+            width: 300px;
+            display: flex;
+         }
+         .linkdin{
+            height:50px ;
+            width: 50px;
+            background-image: url(linkdin.png.png);
+         }
+         .instagram{
+            height: 50px;
+            width: 50px;
+            background-image: url(instagram.png);
+            margin-left: 20px;
+            
+         }
+         .facebook{
+            height: 50px;
+            width: 50px;
+            background-image: url(facebook.png.png);
+            margin-left: 20px;
+         }
+    .twitter{
+        height: 50px;
+            width: 50px;
+            background-image: url(twitter.png);
+            margin-left: 20px;
+
+    }
+    #about{
+        margin-top: 20%;
+    
+         margin-left: 50%;
+         
+         width: 750px;
+         height: 400px;
+    }
+    .about-me{
+        
+        font-size: 50px;
+        font-weight: 1000;
+         color: rgb(250, 11, 79);
+    }
+    .info{
+font-weight:800;
+font-size: 25px;
+color: white;
+margin-top: 2%;
+
+    }
+    .image1{
+        background-color: pink;
+        height:400px ;
+        width: 400px;
+        float: right;
+        margin: 20% 100px 0px 0px;
+        border: 5px solid rgb(42, 135, 249);
+        border-radius: 50%;
+        box-shadow: 0px 0px 40px rgb(42, 135, 249);
+        background-image: url(shiv1.jpg);
+        background-size: cover;
+        float: inline-start;
+        margin-left: 80px;
+     }
+    .story{
+        color: white;
+          margin-top: 30px;
+        height: 160px;
+        width: 650px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    #project{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 1000;
+        margin-top: 20%;
+        color: white;
+    }
+    .project-section{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-evenly;
+    /* background-color: pink;} */}
+
+        .input{
+            box-shadow: 0px 0px 40px white;
+        border: 2px solid white;
+        height: 300px;
+        width: 20%;
+        background: linear-gradient(#4335A7,#FF7F3E);
+    }
+    .p1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        font-style: italic;
+        color: white;
+    }
+    .p2{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        font-style: italic;
+        color: white;
+    }
+    .p3{ text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        font-style: italic;
+        color: white;}
+        .p1 p{
+            font-size: 25px;
+            font-weight: 15px;
+            color: white;
+        }
+        .p2 p{
+            color: white;
+            font-size: 25px;
+            font-weight:15px ;
+        }
+        .p3 p{
+            color: white;
+            font-size: 25px;
+            font-weight:15px ;
+        }
+        .but{
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: red;
+            color: white;
+            font-weight: 500;
+            
+        }
+        .but1{
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: red;
+            color: white;
+            font-weight: 500;
+        }
+        .but2{
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: red;
+            color: white;
+            font-weight: 500;
+        }
+        #contact{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 1000;
+            margin-top: 20%;
+            color: white;
+        }
+        .div{
+            height: 450px;
+            width: 300px;
+            background-color: white;
+            border: 2px solid white;
+            margin-top: 8%;
+        text-align: left;
+        font-size: 20px;
+        color: black;
+        padding-left: 20px;
+        margin-bottom: 80px;
+        border-radius: 5px;
+        font-weight: 800;
+
+        }
+.l2{
+    height:30px;
+    width: 250px;
+}
+.l4{
+    height:30px;
+    width: 250px; 
+}
+.l6{
+    height:150px;
+    width: 250px;
+}
+.l7{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color:rgb(42, 135, 249);
+    color: white;
+    border-radius: 10px;
+}
+
+.s1{
+    margin-top: 20px;
+}
+.d1{
+    background-image: url(email.png);
+    background-repeat:no-repeat;
+    height: 30px;
+    width: 40px;
+    background-color: white;
+}
